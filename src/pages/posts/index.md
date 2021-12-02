@@ -2,6 +2,8 @@
 setup: |
   import Layout from '../../layouts/BlogPost.astro'
   import Cool from '../../components/Author.astro'
+  import imgUrl from '../../images/astronaut.jpg'
+
 title: Hello world!
 publishDate: 12 Sep 2021
 name: Nate Moore
@@ -13,4 +15,6 @@ description: Just a Hello World Post!
 
 This is so cool!
 
-Do variables work {frontmatter.value * 2}?
+<img src={imgUrl} alt="astronaut floating in space" />
+
+<!-- <p>{imgUrl}</p> -->
