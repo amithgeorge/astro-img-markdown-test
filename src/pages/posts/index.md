@@ -16,5 +16,3 @@ description: Just a Hello World Post!
 This is so cool!
 
 <img src={imgUrl} alt="astronaut floating in space" />
-
-<!-- <p>{imgUrl}</p> -->
